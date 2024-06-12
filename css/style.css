@@ -1,0 +1,47 @@
+/* style.css */
+
+/* Estilo para la imagen sobre el título */
+.text-center img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Cambiar color del texto en la barra de navegación */
+.navbar-brand.text-white {
+    color: white !important;
+}
+
+/* Estilo personalizado para el formulario */
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo personalizado para el botón */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo para las tarjetas de superhéroes */
+.card {
+    margin-top: 20px;
+}
+
+.card img {
+    width: 30%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body p {
+    margin: 0 0 10px;
+}

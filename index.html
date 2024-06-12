@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Superhéroe</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Enlace a nuestro CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/img/sh2.jpg" type="image/jpeg">
+    <!-- Enlace a jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Enlace a CanvasJS -->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand text-white" href="#">
+        <img src="assets/img/sh2.jpg" alt="Favicon" width="30" height="30" class="mr-2">SuperHero
+    </a>
+</nav>
+
+
+    <!-- Sección principal -->
+    <main class="container mt-4">
+        <!-- Imagen sobre el título -->
+        <div class="text-center mb-4">
+            <img src="assets/img/sh1.jpg" alt="Superhéroe" class="img-fluid">
+        </div>
+        <!-- Formulario de búsqueda -->
+        <section class="mb-4">
+            <h2>Buscar Superhéroe</h2>
+            <form id="search-form">
+                <div class="form-group">
+                    <label for="hero-id">Ingrese el ID del superhéroe:</label>
+                    <input type="text" class="form-control" id="hero-id" placeholder="Ej. 213">
+                </div>
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </form>
+        </section>
+
+        <!-- Sección de resultados -->
+        <section id="results"></section>
+    </main>
+
+    <!-- Enlace a Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Enlace a nuestro script personalizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
